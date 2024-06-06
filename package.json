@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:local": "cross-env NODE_ENV=local nodemon app.js",
-    "start": "cross-env NODE_ENV=stage nodemon app.js",
+    "start:stage": "cross-env NODE_ENV=stage nodemon app.js",
     "start:prod": "cross-env NODE_ENV=prod nodemon app.js"
   },
   "keywords": [],
