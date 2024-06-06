@@ -19,7 +19,7 @@ app.use(express.json({ limit: "500mb", extended: true, parameterLimit: 5000000 }
 
 // Routes
 app.get('/', async (req, res) => {
-    res.send(`WELCOME TO ERP_ADMIN BACKEND ${process.env.ENVIRONMENT} APP`);
+    res.send(`WELCOME TO ERP_ADMIN BACKEND ${process.env.ENVIRONMENT} APPLICATION`);
 });
 
 // Start server
